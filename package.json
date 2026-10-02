@@ -1,0 +1,13 @@
+{
+  "name": "case-coach",
+  "version": "1.1.0",
+  "description": "AI case interview coach for MBA consulting and product management interviews",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file-if-exists=.env server.js"
+  },
+  "engines": { "node": ">=20.6" },
+  "license": "MIT"
+}
